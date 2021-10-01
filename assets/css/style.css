@@ -904,15 +904,15 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
+/* .services .icon-box {
   text-align: center;
   border: 1px solid #e2eefd;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
-}
+} */
 
-.services .icon-box .icon {
+/* .services .icon-box .icon {
   margin: 0 auto;
   width: 64px;
   height: 64px;
@@ -930,7 +930,7 @@ section {
   color: #3b8af2;
   font-size: 28px;
   transition: ease-in-out 0.3s;
-}
+} */
 
 .services .icon-box h4 {
   font-weight: 700;
@@ -943,10 +943,10 @@ section {
   transition: ease-in-out 0.3s;
 }
 
-.services .icon-box p {
-  line-height: 24px;
+.services p {
+  line-height: 18px;
   font-size: 14px;
-  margin-bottom: 0;
+  padding: 30px 0 30px 0;
 }
 
 .services .icon-box:hover {
@@ -960,6 +960,25 @@ section {
 
 .services .icon-box:hover .icon {
   border-color: rgb(95,190, 220);;
+}
+/* 
+@media (min-width: 768px) and (max-width: 1200px) {
+  .services p {
+    width: 80%;
+  }
+} */
+
+@media (min-width: 400px) and (max-width: 768px) {
+  .services img {
+    width: 250px;
+    height: 250px;
+  }
+  .services p {
+    width: 100%;
+    line-height: 15px;
+    margin: 20px 0;
+    padding: 20px 0;
+  }
 }
 
 /*--------------------------------------------------------------
