@@ -4,7 +4,49 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+//////////////////////////email form submission ////////////////////
 
+$("#contactForm").submit(function(event){
+  // cancels the form submission
+  event.preventDefault();
+  submitForm();
+});
+function submitForm(){
+  // Initiate Variables With Form Content
+  const name = $("#name").val();
+  const email = $("#email").val();
+  const message = $("#message").val();
+
+  $.ajax({
+      type: "POST",
+      url: "forms/PHP/contacto.php",
+      data: "name=" + name + "&email=" + email + "&message=" + message,
+      success : function(text){
+          if (text == "success"){
+              formSuccess();
+          }
+      }
+  });
+}
+function formSuccess(){
+  $("#msgSubmit").removeClass("hidden");
+}
+function submitMSG(valid, msg){
+  var msgClasses;
+if(valid){
+  msgClasses = "h3 tada animated text-success";
+} else {
+  msgClasses = "h3 text-danger";
+}
+$("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
+}
+$("#contactForm")[0].reset();
+submitMSG(true, "Message Submitted!")
+function formError(){
+  $("#contactForm").removeClass().addClass('shake animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+      $(this).removeClass();
+  });
+}
 
 
 
