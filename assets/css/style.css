@@ -19,30 +19,33 @@ a {
 }
 
 a:hover {
-  color: rgb(0,140,190);
+  color: rgb(0, 140, 190);
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Roboto", sans-serif;
-  color: black !important;
+  color: black;
 }
 
- 
 /*--------------------------------------------------------------
 # Modal
 --------------------------------------------------------------*/
 
-#main-title h5{
+#main-title h5 {
   margin-left: 90px;
 }
 .modal-content {
-  background-color:rgb(95,190, 220);
+  background-color: rgb(95, 190, 220);
 }
 .modal-footer {
   display: flex;
   justify-content: flex-start;
-  
 }
 .modal-footer div {
   visibility: hidden;
@@ -67,13 +70,13 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid rgb(95,190, 220);;
+  border: 6px solid rgb(95, 190, 220);
   border-top-color: #e2eefd;
   border-radius: 50%;
   width: 60px;
   height: 60px;
-   -webkit-animation: animate-preloader 1s linear infinite;
-  animation: animate-preloader 1s linear infinite; 
+  -webkit-animation: animate-preloader 1s linear infinite;
+  animation: animate-preloader 1s linear infinite;
 }
 
 @-webkit-keyframes animate-preloader {
@@ -104,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: rgb(95,190, 220);;
+  background: rgb(95, 190, 220);
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -140,7 +143,7 @@ h1, h2, h3, h4, h5, h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: rgb(95,190, 220);;
+  background: rgb(95, 190, 220);
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -153,7 +156,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-#topbar .contact-info i a, #topbar .contact-info i span {
+#topbar .contact-info i a,
+#topbar .contact-info i span {
   padding-left: 5px;
   color: #fff;
 }
@@ -169,14 +173,14 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: underline;
 }
 
-#topbar .emergency{
-  color:white !important;
+#topbar .emergency {
+  color: white !important;
   line-height: 0;
   transition: 0.3s;
   margin-left: 20px;
 }
 #topbar .emergency h5 {
-  color:  white !important;
+  color: white !important;
   font-weight: 700;
 }
 
@@ -215,7 +219,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a span {
-  color: rgb(95,190, 220);;
+  color: rgb(95, 190, 220);
 }
 
 #header .logo img {
@@ -279,19 +283,23 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: rgb(95,190, 220);;
+  background-color: rgb(95, 190, 220);
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
 }
 
-.navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
+.navbar a:hover:before,
+.navbar li:hover > a:before,
+.navbar .active:before {
   visibility: visible;
   width: 100%;
 }
 
-.navbar a:hover, .navbar .active, .navbar li:hover > a {
-  color: rgb(95,190, 220);;
+.navbar a:hover,
+.navbar .active,
+.navbar li:hover > a {
+  color: rgb(95, 190, 220);
 }
 
 .navbar .dropdown ul {
@@ -322,8 +330,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 
-.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: rgb(95,190, 220);;
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover > a {
+  color: rgb(95, 190, 220);
 }
 
 .navbar .dropdown:hover > ul {
@@ -420,12 +430,16 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
-.navbar-mobile a:hover:before, .navbar-mobile li:hover > a:before, .navbar-mobile .active:before {
+.navbar-mobile a:hover:before,
+.navbar-mobile li:hover > a:before,
+.navbar-mobile .active:before {
   visibility: hidden;
 }
 
-.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: rgb(95,190, 220);;
+.navbar-mobile a:hover,
+.navbar-mobile .active,
+.navbar-mobile li:hover > a {
+  color: rgb(95, 190, 220);
 }
 
 .navbar-mobile .getstarted {
@@ -456,8 +470,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 
-.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: rgb(95,190, 220);;
+.navbar-mobile .dropdown ul a:hover,
+.navbar-mobile .dropdown ul .active:hover,
+.navbar-mobile .dropdown ul li:hover > a {
+  color: rgb(95, 190, 220);
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -498,8 +514,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 
-
-
 /* #hero h2 {
   color: #555555;
   margin: 5px 0 30px 0;
@@ -518,7 +532,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background:  rgb(0, 80, 160);
+  background: rgb(0, 80, 160);
 }
 
 #hero .btn:hover {
@@ -536,7 +550,7 @@ h1, h2, h3, h4, h5, h6 {
 } */
 
 #hero .btn-watch-video i {
-  color: rgb(95,190, 220);;
+  color: rgb(95, 190, 220);
   font-size: 32px;
   transition: 0.3s;
   line-height: 0;
@@ -544,7 +558,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-watch-video:hover {
-  color: rgb(95,190, 220);;
+  color: rgb(95, 190, 220);
 }
 
 #hero .btn-watch-video:hover i {
@@ -570,7 +584,8 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
-  #hero .btn-get-started, #hero .btn-watch-video {
+  #hero .btn-get-started,
+  #hero .btn-watch-video {
     font-size: 13px;
   }
 }
@@ -604,7 +619,7 @@ section {
   font-weight: 700;
   padding: 8px 20px;
   margin: 0;
-  background: rgb(0,80,160);
+  background: rgb(0, 80, 160);
   color: white;
   display: inline-block;
   text-transform: uppercase;
@@ -619,7 +634,7 @@ section {
 }
 
 .section-title h3 span {
-  color: rgb(95,190, 220);;
+  color: rgb(95, 190, 220);
 }
 
 .section-title p {
@@ -689,6 +704,7 @@ section {
 /*--------------------------------------------------------------
 # Featured Services
 --------------------------------------------------------------*/
+
 .featured-services .icon-box {
   padding: 30px;
   position: relative;
@@ -700,9 +716,8 @@ section {
   z-index: 1;
 }
 
-
 .featured-services .icon-box::before {
-  content: '';
+  content: "";
   position: absolute;
   background: #cbe0fb;
   right: 0;
@@ -714,9 +729,10 @@ section {
 }
 
 .featured-services .icon-box:hover::before {
-  background: rgb(95,190, 220);;
+  background: url("../img/logo.jpg");
   top: 0;
   border-radius: 0px;
+  opacity: 0.5;
 }
 
 .featured-services .icon {
@@ -724,7 +740,6 @@ section {
   display: flex;
   justify-content: center;
 }
-
 
 /* .featured-services .icon i {
   font-size: 48px;
@@ -736,56 +751,51 @@ section {
 .featured-services .title {
   font-weight: 700;
   margin-bottom: 20px;
-  font-size: 20px;
+  font-size: 2rem;
   display: flex;
   justify-content: center;
-  color: black !important;
-  
+  color: #00519e !important;
+  text-align: center;
 }
 
 .featured-services h3 {
-  color: black !important;
+  font-size: 2.5rem;
+  text-align: center;
+  color: rgb(95, 190, 220) !important;
 }
 
-
-
-
-
 .featured-services .description {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 1.2;
+  line-height: 1.5rem;
   margin-bottom: 0;
- 
 }
 
 /* 
 .featured-services .icon-box:hover .icon i {
   color: #fff;
 } */
- .featured-services .icon img {
- width: 110px;
- 
-} 
+.featured-services .icon img {
+  width: 8rem;
+}
 
 .featured-services .icon-box:hover .title {
-  color: #fff !important;
+  color: black !important;
 }
-.featured-services .icon-box:hover .description{
-  color: #fff !important;
+.featured-services .icon-box:hover .description {
+  color: black !important;
 }
-.featured-services #contact{
+.featured-services #contact {
   display: flex;
   justify-content: center;
   margin: 10px 0;
 }
-.icon-box:hover h3{
-  color: #fff !important;
-} 
+.icon-box:hover h3 {
+  color: black !important;
+}
 .icon-box:hover .btn {
   background: #fff;
   color: blue;
 }
-
 
 /*--------------------------------------------------------------
 # About
@@ -816,13 +826,13 @@ section {
   font-size: 24px;
   padding: 20px;
   margin-right: 15px;
-  color: rgb(95,190, 220);;
+  color: rgb(95, 190, 220);
   border-radius: 50px;
 }
 
 .about .content ul h5 {
   font-size: 18px;
-  color: rgb(95,190, 220);;
+  color: rgb(95, 190, 220);
 }
 
 .about .content ul p {
@@ -866,10 +876,9 @@ section {
 .skills .progress-bar {
   width: 1px;
   height: 10px;
-  transition: .9s;
-  background-color: rgb(95,190, 220);;
+  transition: 0.9s;
+  background-color: rgb(95, 190, 220);
 }
-
 
 /*--------------------------------------------------------------
 # Clients
@@ -878,9 +887,9 @@ section {
   padding: 20px 0;
   text-align: center;
 }
-.clients h3{
+.clients h3 {
   text-align: center;
-  color: rgb(95,190, 220);;
+  color: rgb(95, 190, 220);
 }
 
 .clients img {
@@ -899,7 +908,6 @@ section {
     max-width: 40%;
   }
 }
-
 
 /*--------------------------------------------------------------
 # Services
@@ -931,11 +939,18 @@ section {
   font-size: 28px;
   transition: ease-in-out 0.3s;
 } */
+.h2Services {
+  color: #00519e;
+  transition: ease-in-out 0.3s;
+  text-align: center;
+  font-size: 2.5rem;
+}
 
 .services .icon-box h4 {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
+  text-align: center;
 }
 
 .services .icon-box h4 a {
@@ -945,7 +960,7 @@ section {
 
 .services p {
   line-height: 18px;
-  font-size: 14px;
+  font-size: 19px;
   padding: 10px 0 30px 0;
 }
 
@@ -954,12 +969,13 @@ section {
   box-shadow: 0px 0 25px 0 rgba(16, 110, 234, 0.1);
 }
 
-.services .icon-box:hover h4 a, .services .icon-box:hover .icon i {
-  color: rgb(95,190, 220);;
+.services .icon-box:hover h4 a,
+.services .icon-box:hover .icon i {
+  color: rgb(95, 190, 220);
 }
 
 .services .icon-box:hover .icon {
-  border-color: rgb(95,190, 220);;
+  border-color: rgb(95, 190, 220);
 }
 /* 
 @media (min-width: 768px) and (max-width: 1200px) {
@@ -972,7 +988,6 @@ section {
   .services img {
     width: 250px;
     height: 250px;
-    
   }
   .damage_text {
     width: 100%;
@@ -994,7 +1009,6 @@ section {
     align-items: center;
     justify-content: center;
   }
-
 }
 
 /*--------------------------------------------------------------
@@ -1047,7 +1061,8 @@ section {
   margin: 0 0 15px 0;
 }
 
-.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+.testimonials .testimonial-item .quote-icon-left,
+.testimonials .testimonial-item .quote-icon-right {
   color: rgba(255, 255, 255, 0.4);
   font-size: 26px;
 }
@@ -1084,7 +1099,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: rgb(95,190, 220);;
+  background-color: rgb(95, 190, 220);
 }
 
 @media (min-width: 992px) {
@@ -1118,8 +1133,9 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: rgb(95,190, 220);;
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
+  color: rgb(95, 190, 220);
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1155,7 +1171,8 @@ section {
   margin-bottom: 0;
 }
 
-.portfolio .portfolio-item .portfolio-info .preview-link, .portfolio .portfolio-item .portfolio-info .details-link {
+.portfolio .portfolio-item .portfolio-info .preview-link,
+.portfolio .portfolio-item .portfolio-info .details-link {
   position: absolute;
   right: 40px;
   font-size: 24px;
@@ -1163,8 +1180,9 @@ section {
   color: #3c3c3c;
 }
 
-.portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: rgb(95,190, 220);;
+.portfolio .portfolio-item .portfolio-info .preview-link:hover,
+.portfolio .portfolio-item .portfolio-info .details-link:hover {
+  color: rgb(95, 190, 220);
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -1214,16 +1232,22 @@ section {
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid rgb(95,190, 220);;
+  border: 1px solid rgb(95, 190, 220);
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: rgb(95,190, 220);;
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
+  background-color: rgb(95, 190, 220);
 }
 
 .portfolio-details .portfolio-info {
@@ -1370,7 +1394,7 @@ section {
 
 .pricing .box h4 {
   font-size: 36px;
-  color: rgb(95,190, 220);;
+  color: rgb(95, 190, 220);
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
@@ -1402,7 +1426,7 @@ section {
 }
 
 .pricing .box ul i {
-  color: rgb(95,190, 220);;
+  color: rgb(95, 190, 220);
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1420,7 +1444,7 @@ section {
 }
 
 .pricing .btn-buy {
-  background: rgb(95,190, 220);;
+  background: rgb(95, 190, 220);
   display: inline-block;
   padding: 8px 35px 10px 35px;
   border-radius: 4px;
@@ -1439,7 +1463,7 @@ section {
 
 .pricing .featured h3 {
   color: #fff;
-  background: rgb(95,190, 220);;
+  background: rgb(95, 190, 220);
 }
 
 .pricing .advanced {
@@ -1451,7 +1475,7 @@ section {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: rgb(95,190, 220);;
+  background: rgb(95, 190, 220);
   color: #fff;
 }
 
@@ -1476,7 +1500,7 @@ section {
 .faq .faq-list .question {
   display: block;
   position: relative;
-  font-family: rgb(95,190, 220);;
+  font-family: rgb(95, 190, 220);
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
@@ -1507,7 +1531,7 @@ section {
 }
 
 .faq .faq-list .collapsed:hover {
-  color: rgb(95,190, 220);;
+  color: rgb(95, 190, 220);
 }
 
 .faq .faq-list .collapsed .icon-show {
@@ -1532,7 +1556,7 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: rgb(95,190, 220);;
+  color: rgb(95, 190, 220);
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #b3d1fa;
@@ -1704,7 +1728,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: rgb(95,190, 220);;
+  background: rgb(95, 190, 220);
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -1733,7 +1757,7 @@ section {
 }
 
 #footer .footer-top .footer-contact h3 span {
-  color: rgb(95,190, 220);;
+  color: rgb(95, 190, 220);
 }
 
 #footer .footer-top .footer-contact p {
@@ -1764,7 +1788,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: rgb(95,190, 220);;
+  color: rgb(95, 190, 220);
   font-size: 18px;
   line-height: 1;
 }
@@ -1788,13 +1812,13 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: rgb(95,190, 220);;
+  color: rgb(95, 190, 220);
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: rgb(95,190, 220);;
+  background: rgb(95, 190, 220);
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1825,7 +1849,8 @@ section {
 }
 
 @media (max-width: 768px) {
-  #footer .copyright, #footer .credits {
+  #footer .copyright,
+  #footer .credits {
     float: none;
     text-align: center;
     padding: 2px 0;
