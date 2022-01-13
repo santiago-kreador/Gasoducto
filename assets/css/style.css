@@ -1575,6 +1575,7 @@ section {
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.3);
   padding: 20px 0 30px 0;
+  
 }
 
 .contact .info-box i {
@@ -1599,7 +1600,7 @@ section {
   margin-bottom: 0;
 }
 
-/* .contact .php-email-form {
+ .contact .php-email-form {
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.4);
   padding: 30px;
 }
@@ -1669,7 +1670,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: rgb(95,190, 220);;
+  background: rgb(95,190, 220);
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1698,7 +1699,7 @@ section {
   100% {
     transform: rotate(360deg);
   }
-} */
+} 
 
 /*--------------------------------------------------------------
 # Footer
