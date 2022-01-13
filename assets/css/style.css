@@ -37,8 +37,9 @@ h6 {
 # Modal
 --------------------------------------------------------------*/
 
-#main-title h5 {
-  margin-left: 90px;
+#main-title {
+  display: flex;
+  justify-content: center;
 }
 .modal-content {
   background-color: rgb(95, 190, 220);
@@ -630,7 +631,7 @@ section {
   margin: 15px 0 0 0;
   font-size: 32px;
   font-weight: 700;
-  color: white;
+  color: black;
 }
 
 .section-title h3 span {
@@ -651,7 +652,7 @@ section {
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
-/*.breadcrumbs {
+.breadcrumbs {
   padding: 20px 0;
   background-color: #f1f6fe;
   min-height: 40px;
@@ -675,7 +676,7 @@ section {
   list-style: none;
   padding: 0;
   margin: 0;
-  /* font-size: 14px; 
+   font-size: 14px; 
 }
 
 .breadcrumbs ol li + li {
@@ -952,12 +953,12 @@ section {
   font-size: 28px;
   transition: ease-in-out 0.3s;
 } 
-/* .h2Services {
+ .h2Services {
   color: rgb(95, 190, 220);
   transition: ease-in-out 0.3s;
   text-align: center;
   font-size: 2.5rem;
-} */
+} 
 .services .title {
   font-size: 24px;
   text-align: center;
@@ -1000,12 +1001,12 @@ section {
 .services .icon-box:hover .icon {
   border-color: rgb(95, 190, 220);
 }
-/* 
+ 
 @media (min-width: 768px) and (max-width: 1200px) {
   .services p {
     width: 80%;
   }
-} */
+} 
 
 @media (max-width: 768px) {
   .services img {
@@ -1038,8 +1039,8 @@ section {
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials {
-  padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
+  padding: 200px 0 150px 0 ;
+  background: url("../img/gasoducto1.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
