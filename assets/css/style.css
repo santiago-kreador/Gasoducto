@@ -769,6 +769,15 @@ section {
   border-radius: 0px;
   opacity: 0.5;
 }
+/* .mvv:hover::before {
+  
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  border-radius: 0px;
+  opacity: 0.5;
+} */
 
 .featured-services .icon {
   margin-bottom: 15px;
@@ -800,8 +809,8 @@ section {
 }
 .featured-services .luis {
   padding: 30px 0;
-  width: 500px;
-  height: 350px;
+  width: 600px;
+  height: 370px;
 }
 
 .featured-services .description {
@@ -843,6 +852,7 @@ section {
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
+  text-align: center;
 }
 
 .about .content ul {
@@ -882,7 +892,89 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+.about .customer-data {
+  border: 1px solid lightcoral;
+  max-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.btn-get-started-clients {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 25px;
+  border-radius: 8px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 0;
+  background: rgb(95, 190, 220);
+}
+.btn-get-started-clients:hover {
+  color: #fff;
+  font-size: 16px;
+}
 
+/*------------------------------------------------------------
+Mision, vision y valores
+--------------------------------------------------------------*/
+
+.mvv .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.mvv .title {
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: center;
+  color: #00519e !important;
+  text-align: center;
+}
+
+.mvv .icon-box::before {
+  content: "";
+  position: absolute;
+  background:  #cbe0fb;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 100%;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.mvv .icon-box:hover::before {
+  background: rgb(95, 190, 220);
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  border-radius: 0px;
+  opacity: 0.5;
+}
+.mvv .icon-box .title:hover{
+  color: #fff;
+  font-weight: 600;
+}
+.mvv ul li {
+  list-style: circle;
+}
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
